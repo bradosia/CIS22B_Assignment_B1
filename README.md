@@ -27,21 +27,25 @@ main<BR>
 - Uses new to obtain space for the data structure
 - Calls the the input, setUp, and output functions
 - Deletes the space that was obtained using new
+
 input:<BR>
 <BR>
 - Takes the height of the cone and radius of the base as reference parameters
 - Reads the height and radius from the user
 - Has a return type of void
+
 setUp:<BR>
 <BR>
 - Takes three parameters by value: height, radius, and a pointer to the Cone
 - Puts the data into the data structure
 - Has a return type of void
+
 getVolume:<BR>
 <BR>
 - Takes one parameter by value: a pointer to the Cone
 - Computes the volume
 - Returns the volume
+
 output:<BR>
 <BR>
 - Takes one parameter by value: a pointer to the Cone
